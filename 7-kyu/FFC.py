@@ -4,4 +4,21 @@ The accounts of the "Fat to Fit Club (FFC)" association are supervised by John a
 Could you help him?
 
 """
+import math
 
+def new_avg(arr, newavg):
+    try:
+        n = len(arr)
+        new_len = n + 1
+        new_total = newavg * new_len
+        assert new_total > sum(arr)
+        new_donation = math.ceil(new_total - sum(arr))
+        return new_donation
+    except AssertionError:
+        print("Error expected")
+
+arr = [14, 30, 5, 7, 9, 11, 16]
+newavg = 30
+
+
+print(new_avg(arr, newavg))
