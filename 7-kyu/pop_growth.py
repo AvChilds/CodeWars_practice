@@ -15,7 +15,7 @@ def nb_year(p0, percent, aug, p):
     count = 0
     while p0 < p:
         percent_dec = float(percent / 100)
-        pop_growth_year = int(p0 * percent_dec,) + augj
+        pop_growth_year = int(p0 * percent_dec,) + aug
         p_year = p0 + pop_growth_year
         p0 = p_year
         count += 1
