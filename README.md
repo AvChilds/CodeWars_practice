@@ -1,7 +1,8 @@
 # 🧠 Codewars Kata Practice 🥋🐍
 
-> A collection of my **Python practice solutions** from [Codewars](https://www.codewars.com/), where coding feels like martial arts for the brain!
+> A collection of my **Python practice solutions** from [Codewars](https://www.codewars.com/)
 
+![Codewars](https://www.codewars.com/users/techTorty/badges/large)
 ---
 
 ## 🥇 Current Rank: 7kyu – Python Path
